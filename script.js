@@ -11,7 +11,7 @@ function setup() {
     noFill();
 
     
-    const popup = createDiv('Press anywhere to start and drag.');
+    const popup = createDiv('Press anywhere to start.');
     popup.id('popup');
 }
 
