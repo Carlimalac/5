@@ -4,15 +4,19 @@
   box-sizing: border-box;
 }
 
+html, body {
+  height: 100%;  /* Make sure the body and HTML elements take up the entire screen */
+  overflow: hidden;
+}
+
 body {
   background-color: black;
   font-family: Arial, sans-serif;
-  overflow: hidden;
   color: white;
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 footer {
@@ -28,7 +32,6 @@ footer span {
   color: #fff;
 }
 
-/* Popup styles */
 #popup {
   position: absolute;
   top: 50%;

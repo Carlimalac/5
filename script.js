@@ -99,3 +99,8 @@ function touchStarted() {
 
     return false;  // Prevent default touch behavior
 }
+
+// Resize the canvas when the window is resized (for responsiveness)
+function windowResized() {
+    resizeCanvas(windowWidth, windowHeight);
+}
