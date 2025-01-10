@@ -11,7 +11,7 @@ function setup() {
     noFill();
 
     // Create the popup element dynamically
-    const popup = createDiv('Tap anywhere and move around.');
+    const popup = createDiv('Press anywhere and drag.');
     popup.id('popup');
 }
 
